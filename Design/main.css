@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+body {
+  background-color: rgb(191, 191, 191);
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.box {
+    margin-top: 20px;
+  background-color: rgba(255, 255, 255, 0.498);
+  min-height: 200px;
+  width: 400px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 6px black;
+}
+#input {
+  font-size: larger;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  height: 58px;
+  width: 350px;
+}
+.btn {
+  border: none;
+  border-radius: 10px;
+  font-size: larger;
+  margin-top: 15px;
+  width: 150px;
+  height: 40px;
+}
+.task{
+    font-size: large;
+    background-color: white;
+    margin: 20px 30px;
+    padding: 10px 25px;
+    border-radius: 12px;
+}
+#body{
+    width: 100vw;
+}
+.complete{
+    background-color: rgb(214, 247, 214);
+border: 2px solid green;
+}
+.combtn{
+  background-color:green;
+  color: white;
+  width: 70px;
+  height: 40px;
+  border:2px solid black;
+border-radius: 10px;
+margin: 0px 12px;
+}
+.delbtn{
+background-color: red;
+color: white;
+width: 70px;
+height: 40px;
+border:2px solid black;
+border-radius: 10px;
+margin: 0px 12px;
+}
+.task{
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
